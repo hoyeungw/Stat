@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Title>Stat.Vector.Percentile</Title>
+    <Description>Get percentile from array</Description>
+    <PackageTags>Statistics, Percentile, Percentile Ranks</PackageTags>
+    <Company>Hoyeung Wong</Company>
+    <Authors>Hoyeung Wong</Authors>
+    <Copyright>Copyright (c) Hoyeung Wong 2020-present</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RootNamespace>Stat.Vector</RootNamespace>
+    <PackageIcon>stat-avatar.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Veho.Vector" Version="0.6.11"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\media\stat-avatar.png" Pack="true" PackagePath=""/>
+    <None Include="..\README.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+</Project>
